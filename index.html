@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="masonry.pkgd.js"></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="loader.js"></script>
+    <title>Maxloft</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <img src="images/logo.png" alt="logo" class="preloader__logo" />
+      <div class="preloader__status-bar">
+        <div class="preloader__loader"></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <button class="button button-application button-fixed">
+        Оставить заявку
+        <span class="button-fixed__pulse"></span>
+        <span class="button-fixed__pulse"></span>
+        <span class="button-fixed__pulse"></span>
+      </button>
+      <header id="header" class="header">
+        <img src="images/logo.png" alt="logo" class="logo" />
+      </header>
+      <nav class="navigation header-navigation">
+        <a href="#about" class="navigation__link">О компании</a>
+        <a href="#catalog" class="navigation__link">Каталог</a>
+        <a href="#advantage" class="navigation__link">Приемущества</a>
+        <a href="#contacts" class="navigation__link">Контакты</a>
+      </nav>
+      <section class="hero">
+        <img src="images/wall.svg" alt="wall" class="hero__bg" />
+        <h1 class="hero__title">Мебель на заказ</h1>
+        <p class="hero__text">
+          Мебель в стиле лофт на заказ по доступным ценам
+        </p>
+        <button class="hero__button button-application button">
+          Оставить заявку
+        </button>
+        <img src="images/hero.jpg" alt="hero" class="hero__img" />
+      </section>
+      <section id="about" class="about">
+        <h2 class="title">О компании</h2>
+        <div class="about__items">
+          <div class="about__text">
+            <p class="about__p">
+              Мы изготавливаем авторскую мебель на заказ в стиле лофт для дома и
+              бизнеса. Мы работаем на рынках B2B и B2C. Мы не только продаем, но
+              и сами проектируем и производим мебель от этапа отрисовки макета
+              до доставки и монтажа готового изделия. Вся наша продукция
+              изготавливается мелко-серийно либо по индивидуальным заказам.
+            </p>
+            <p class="about__p">
+              Вы можете заказать изготовление мебели в стиле лофт любой
+              сложности по:
+            </p>
+            <ul class="about__ul">
+              <li class="about__li"><span>Дизайн проекту</span></li>
+              <li class="about__li"><span>Фотографиям и картинкам</span></li>
+              <li class="about__li"><span>Вашим эскизам и чертежам</span></li>
+            </ul>
+          </div>
+          <img src="images/about.jpg" alt="about" class="about__img" />
+        </div>
+      </section>
+      <section id="catalog" class="products">
+        <h2 class="title">Каталог продукции</h2>
+        <div class="catalog">
+          <h3 class="catalog__title">
+            Мебель для <span class="catalog__title_orange">ДОМА</span>
+          </h3>
+          <h4 class="catalog__subtitle">Привнесите в свой дом уют и комфорт</h4>
+          <div class="catalog__list">
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img
+                  src="images/home-rack.jpg"
+                  alt="rack"
+                  class="catalog__img"
+                />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Стеллажи</span>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img
+                  src="images/home-table.jpg"
+                  alt="table"
+                  class="catalog__img"
+                />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Столы</span>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img
+                  src="images/home-cupboard.jpg"
+                  alt="cupboard"
+                  class="catalog__img"
+                />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Шкафы</span>
+            </div>
+          </div>
+          <button class="button button-more">Подробнее</button>
+        </div>
+        <div class="catalog">
+          <h3 class="catalog__title">
+            Мебель для <span class="catalog__title_orange">БИЗНЕСА</span>
+          </h3>
+          <h4 class="catalog__subtitle">
+            Создайте интерьер, в который Вашим клиентом будет приятно
+            возвращаться
+          </h4>
+          <div class="catalog__list">
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img
+                  src="images/bus-rack.jpg"
+                  alt="rack"
+                  class="catalog__img"
+                />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Стеллажи</span>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img
+                  src="images/bus-table.jpg"
+                  alt="table"
+                  class="catalog__img"
+                />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Столы</span>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img
+                  src="images/bus-hanger.jpg"
+                  alt="hanger"
+                  class="catalog__img"
+                />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Вешалки</span>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img
+                  src="images/bus-shelf.jpg"
+                  alt="shelf"
+                  class="catalog__img"
+                />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Полки</span>
+            </div>
+            <div class="catalog__item">
+              <div class="catalog__block-img">
+                <img src="images/bus-bar.jpg" alt="bar" class="catalog__img" />
+                <div class="catalog__shadow"></div>
+              </div>
+              <span class="catalog__img-title">Бары</span>
+            </div>
+          </div>
+          <button class="button button-more">Подробнее</button>
+        </div>
+      </section>
+      <section id="advantage" class="advantage">
+        <h2 class="title">Наши приемущества</h2>
+        <div class="advantage__list">
+          <div class="advantage__item">
+            <span class="advantage__title">1. Собственное производство</span>
+            <p class="advantage__text">
+              У нас собственный производственный цех расположенный в г.
+              Нур-Султан, поэтому все изделия будут изготовлены в кратчайшие
+              сроки.
+            </p>
+            <img
+              src="images/production.jpg"
+              alt="production"
+              class="advantage__img"
+            />
+          </div>
+          <div class="advantage__item">
+            <span class="advantage__title">2. Качественные материалы</span>
+            <p class="advantage__text">
+              Высоко-качественная сталь, ЛДСП и МДФ от EGGER (Австрия),
+              натуральная древесина различных пород (сосна, дуб, бук, ясень,
+              орех, вяз, карагач) и высоко-качественная фурнитура от Hettich
+              (Германия) и Blum (Австрия).
+            </p>
+            <img
+              src="images/materials.jpg"
+              alt="materials"
+              class="advantage__img"
+            />
+          </div>
+          <div class="advantage__item">
+            <span class="advantage__title">3. Гарантия качества</span>
+            <p class="advantage__text">
+              На каждом этапе изготовления мебели, изделия проходят многоэтапный
+              контроль качества. Мы предоставляем гарантию в 12 месяцев на всю
+              нашу продукцию.
+            </p>
+            <img
+              src="images/quality.jpg"
+              alt="quality"
+              class="advantage__img"
+            />
+          </div>
+          <div class="advantage__item">
+            <span class="advantage__title">4. Надежность</span>
+            <p class="advantage__text">
+              Мы гарантируем, что вся изготовленная нами мебель выдержит все
+              заявленные нагрузки и прослужит не один десяток лет.
+            </p>
+            <img
+              src="images/reliability.jpg"
+              alt="reliability"
+              class="advantage__img"
+            />
+          </div>
+          <div class="advantage__item">
+            <span class="advantage__title">5. 3D Визуализация</span>
+            <p class="advantage__text">
+              У нас собственный производственный цех расположенный в г.
+              Нур-Султан, поэтому все изделия будут изготовлены в кратчайшие
+              сроки.
+            </p>
+            <img
+              src="images/visuality.jpg"
+              alt="visuality"
+              class="advantage__img"
+            />
+          </div>
+          <div class="advantage__item">
+            <span class="advantage__title">6. Экологичность</span>
+            <p class="advantage__text">
+              В изготовлении мебели мы используем исключительно экологически
+              чистые материалы. Мебельные щиты из натуральных пород дерева, ЛДСП
+              и МДФ, относящиеся к самой экологичной группе с классом эмиссии
+              Е1.
+            </p>
+            <img src="images/eco.jpg" alt="eco" class="advantage__img" />
+          </div>
+          <div class="advantage__item">
+            <span class="advantage__title">7. Поддержка на всех этапах</span>
+            <p class="advantage__text">
+              Мы не просто подробно проконсультируем Вас и поможем подобрать
+              подходящий дизайн мебели, учитывая все ваши нужды и пожелания, но
+              прикрепим к Вам персонального менеджера, который будет держать Вас
+              в курсе о Вашем заказе на всех этапах производства.
+            </p>
+            <img
+              src="images/support.jpg"
+              alt="support"
+              class="advantage__img"
+            />
+          </div>
+          <div class="advantage__item">
+            <span class="advantage__title">8. Доставка и установка</span>
+            <p class="advantage__text">
+              Не надо беспокоиться о сохранности мебели или установки ее - мы
+              лично доставим Вам мебель в надежно упакованном виде и сами
+              установим ее так как Вы пожелаете..
+            </p>
+            <img
+              src="images/delivery.jpg"
+              alt="delivery"
+              class="advantage__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="work">
+        <h2 class="title">Как мы работаем</h2>
+        <img src="images/work.jpg" alt="work" class="work__hero" />
+        <button class="button button-application">Оставить заявку</button>
+      </section>
+      <section id="contacts" class="contacts">
+        <h2 class="title">Контакты</h2>
+        <div class="contacts__block">
+          <div class="contacts__cont">
+            <span class="contacts__title">Адрес:</span>
+            <span class="contacts__subtitle">
+              г. Нур-Султан, Ул. Жубанова 34/1</span
+            >
+            <span class="contacts__title">Телефон:</span>
+            <span class="contacts__subtitle">+7 (707) 889-98-50</span>
+            <span class="contacts__title">WhatsApp: </span>
+            <span class="contacts__subtitle">+7 (707) 889-98-50</span>
+            <span class="contacts__title">E-mail:</span>
+            <span class="contacts__subtitle"> iloftkz2021@gmail.com </span>
+            <span class="contacts__title">instagram:</span>
+            <span class="contacts__subtitle">iloftkz </span>
+          </div>
+
+          <iframe
+            class="contacts__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.240583487564!2d71.42212441591492!3d51.14091444525325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586bb6ab4ca47%3A0x2978007c77354b11!2z0YPQuy4g0JDQu9C_0LDQvNGL0YEg0LHQsNGC0YvRgCAzNCwg0J3Rg9GALdCh0YPQu9GC0LDQvSAwMjAwMDAsINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2sua!4v1637760311063!5m2!1sru!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+      <footer class="footer">
+        <a href="#header" class="logo footer__logo">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="navigation footer-navigation">
+          <a href="#about" class="navigation__link">О компании</a>
+          <a href="#catalog" class="navigation__link">Каталог</a>
+          <a href="#advantage" class="navigation__link">Приемущества</a>
+          <a href="#contacts" class="navigation__link">Контакты</a>
+        </nav>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
